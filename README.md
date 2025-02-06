@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/8a058f3e-471d-47bb-917c-eb81a2032b90)# User Management System
+# User Management System
 
 ## Description
 
@@ -68,14 +68,20 @@ The **User Management System** is a responsive web application built using **Rea
 
 ### Screenshots
 
+### List View
 ![image](https://github.com/user-attachments/assets/2308e674-2c48-4baa-a0d5-cb1f94d05f49)
 
+### Search
 ![image](https://github.com/user-attachments/assets/95cb9acc-e78c-43aa-92da-63def196c641)
 
+### Edit
 ![image](https://github.com/user-attachments/assets/c24ea962-98dd-445c-9f81-5cbe55cb1b32)
 
+### Delete
 ![image](https://github.com/user-attachments/assets/9751daa3-de9c-41eb-a12f-2d47e8b0f95b)
 
+### Add
 ![image](https://github.com/user-attachments/assets/f9ab6b21-c926-4122-bfa0-e5825f32b0dc)
 
+### Detail View
 ![image](https://github.com/user-attachments/assets/cab54808-52b2-4fca-8252-7cc2fdb2041f)
