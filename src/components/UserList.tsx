@@ -24,7 +24,7 @@ const UserList =  () => {
     const [sortBy, setSortBy] = useState<'first_name' | 'email'>('first_name');
     const [order, setOrder] = useState<'asc' | 'desc'>('asc');
     const [deleteUserId, setDeleteUserId] = useState<number | null>(null);
-    const [page, setPage] = useState(0); // Zero-based page index for TablePagination
+    const [page, setPage] = useState(0); 
     const [rowsPerPage, setRowsPerPage] = useState(5);
     const navigate = useNavigate();
 
@@ -35,26 +35,23 @@ const UserList =  () => {
         } else {
             getAllUsers().then(usersData => {
                 setUsers(usersData);
-                localStorage.setItem('users', JSON.stringify(usersData)); // Store API data locally
+                localStorage.setItem('users', JSON.stringify(usersData));
             }).catch(error => console.error("Error fetching users:", error));
         }
     }, []);
 
-    // Search filter logic
     const filteredUsers = users.filter(user =>
         user.first_name.toLowerCase().includes(search.toLowerCase()) ||
         user.last_name.toLowerCase().includes(search.toLowerCase()) ||
         user.email.toLowerCase().includes(search.toLowerCase())
     );
 
-    // Sorting logic
     const sortedUsers = [...filteredUsers].sort((a, b) => {
         const valueA = a[sortBy].toLowerCase();
         const valueB = b[sortBy].toLowerCase();
         return order === 'asc' ? valueA.localeCompare(valueB) : valueB.localeCompare(valueA);
     });
 
-    // Pagination logic
     const paginatedUsers = sortedUsers.slice(page * rowsPerPage, (page + 1) * rowsPerPage); // Adjusted slicing
 
     const handleSort = (field: 'first_name' | 'email') => {
@@ -159,7 +156,7 @@ const UserList =  () => {
                 onPageChange={(_, newPage) => setPage(newPage)}
                 onRowsPerPageChange={(event) => {
                     setRowsPerPage(parseInt(event.target.value, 10));
-                    setPage(0); // Reset to first page when rows per page is changed
+                    setPage(0); 
                 }}
             />
 

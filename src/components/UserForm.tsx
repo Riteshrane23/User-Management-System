@@ -11,7 +11,7 @@ export interface User {
 }
 
 const UserForm = () => {
-    const { id } = useParams<{ id?: string }>(); // id can be undefined
+    const { id } = useParams<{ id?: string }>(); 
     const navigate = useNavigate();
     const isEditing = Boolean(id);
 

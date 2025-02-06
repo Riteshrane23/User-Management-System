@@ -12,8 +12,8 @@ export const getAllUsers = async () => {
         const response = await axios.get(`${API_URL}?page=${page}`);
         allUsers = [...allUsers, ...response.data.data];
 
-        totalPages = response.data.total_pages; // Total pages from API response
-        page++; // Move to next page
+        totalPages = response.data.total_pages; 
+        page++; 
     }
 
     return allUsers;
