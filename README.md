@@ -2,7 +2,7 @@
 
 ## Description
 
-The **User Management System** is a responsive web application built using **React** and **Material UI**. It empowers administrators to efficiently manage user data through features like viewing, searching, sorting, adding, editing, and deleting users.  The application intelligently fetches user data from a configured API endpoint.  As a fallback, when offline, it seamlessly utilizes data stored in local storage, ensuring continued functionality. The system incorporates pagination for efficient data handling, flexible sorting options, and confirmation dialogs to prevent accidental data loss during deletion.
+The **User Management System** is a responsive web application built using **React** and **Material UI**.
 
 ## Features
 
@@ -10,12 +10,9 @@ The **User Management System** is a responsive web application built using **Rea
 *   **Search:** Quickly locate specific users by first name, last name, or email address.
 *   **Sort:**  Organize user lists by name or email in ascending or descending order.
 *   **Pagination:** Browse large user datasets efficiently with a paginated view.  Configure the number of users displayed per page.
-*   **Offline Support:**  Continue managing users even without an active internet connection, leveraging locally stored data.
 *   **Confirmation Dialogs:** Prevent accidental data loss with confirmation prompts before deleting user accounts.
 *   **Responsive Design:** Provides optimal viewing experience across various devices (desktops, tablets, and mobile phones).
-*   **Data Persistence:** User data changes (additions, edits, deletions) are automatically saved to local storage for offline availability and data recovery.
 *   **API Integration:** Fetches user data from a configurable REST API, allowing seamless integration with backend systems.
-*   **Customizable:** Easily customizable components and styles to match your branding.
 
 ## Prerequisites
 
@@ -52,7 +49,7 @@ The **User Management System** is a responsive web application built using **Rea
     http://localhost:5173
     ```
 
-    
+
 ### Folder Structure
 
 /user-management-system
