@@ -12,12 +12,12 @@ The **User Management System** is a responsive web application built using **Rea
 *   **Pagination:** Browse large user datasets efficiently with a paginated view.  Configure the number of users displayed per page.
 *   **Confirmation Dialogs:** Prevent accidental data loss with confirmation prompts before deleting user accounts.
 *   **Responsive Design:** Provides optimal viewing experience across various devices (desktops, tablets, and mobile phones).
-*   **API Integration:** Fetches user data from a configurable REST API, allowing seamless integration with backend systems.
+*   **API Integration:** Fetches user data from a configurable REST API.
 
 ## Prerequisites
 
 *   [Node.js](https://nodejs.org/) (v14 or above) -  JavaScript runtime environment
-*   [npm](https://www.npmjs.com/) (v6 or above) - Node package manager (usually comes with Node.js)
+*   [npm](https://www.npmjs.com/) (v6 or above) - Node package manager 
 *   A code editor (e.g., VS Code, Sublime Text, Atom)
 
 ## Setup and Installation
@@ -25,7 +25,7 @@ The **User Management System** is a responsive web application built using **Rea
 ### 1. Clone the Repository:
     
    ```bash
-      git clone https://github.com/your-username/user-management-system.git
+      git clone https://github.com/Riteshrane23/User-Management-System.git
    ```
 
 ### 2. Navigate to the Project Directory
@@ -71,17 +71,17 @@ The **User Management System** is a responsive web application built using **Rea
 ### List View
 ![image](https://github.com/user-attachments/assets/2308e674-2c48-4baa-a0d5-cb1f94d05f49)
 
-### Search
+### Search User
 ![image](https://github.com/user-attachments/assets/95cb9acc-e78c-43aa-92da-63def196c641)
 
-### Edit
+### Edit User
 ![image](https://github.com/user-attachments/assets/c24ea962-98dd-445c-9f81-5cbe55cb1b32)
 
-### Delete
+### Delete User
 ![image](https://github.com/user-attachments/assets/9751daa3-de9c-41eb-a12f-2d47e8b0f95b)
 
-### Add
+### Add User
 ![image](https://github.com/user-attachments/assets/f9ab6b21-c926-4122-bfa0-e5825f32b0dc)
 
-### Detail View
+### User Detail View
 ![image](https://github.com/user-attachments/assets/cab54808-52b2-4fca-8252-7cc2fdb2041f)
